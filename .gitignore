@@ -1,0 +1,23 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# Logs
+*.log
+
+# Environment: keep secrets out, but share the template
+.env
+.env.*
+!.env.example
+
+# Editors and OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.sw?
+
+# Claude Code preview config (machine-specific paths)
+.claude/launch.json
